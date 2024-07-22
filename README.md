@@ -48,8 +48,8 @@ stock-price-prediction/
 Clone this repository and install the required packages:
 
 ```bash
-git clone https://github.com/your-username/stock-price-prediction.git
-cd stock-price-prediction
+git clone https://github.com/your-username/Stock-Price-Prediction-and-Investment-Advising-System.git
+cd Stock-Price-Prediction-and-Investment-Advising-System
 pip install -r requirements.txt
 ```
 ## Usage
