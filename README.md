@@ -119,9 +119,9 @@ The `predict_and_advice.py` script uses the trained model to predict stock price
 
 The results of the project are as follows:
 
-1. **raining RMSE**: The root mean squared error (RMSE) on the training data.
-2. **Test RMSE**: The root mean squared error (RMSE) on the test data.
-3. **Investment Advice**: Buy or Sell recommendation based on the predicted stock price.
+- **raining RMSE**: The root mean squared error (RMSE) on the training data.
+- **Test RMSE**: The root mean squared error (RMSE) on the test data.
+- **Investment Advice**: Buy or Sell recommendation based on the predicted stock price.
 
 
 
