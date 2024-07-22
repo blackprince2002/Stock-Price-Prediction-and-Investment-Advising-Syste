@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 ## Data Collection
 
-The data_collection.py script fetches Reddit posts related to specific companies and their historical stock data. The script performs the following tasks:
+The `data_collection.py` script fetches Reddit posts related to specific companies and their historical stock data. The script performs the following tasks:
 
 1. Downloads the NLTK VADER lexicon and stopwords.
 2. Initializes a Reddit instance using PRAW (Python Reddit API Wrapper).
@@ -85,4 +85,43 @@ The data_collection.py script fetches Reddit posts related to specific companies
 5. Fetches historical stock data for each company from Yahoo Finance.
 6. Merges the Reddit sentiment data with the stock data.
 7. Saves the processed data to a CSV file.
+
+## Sentiment Analysis
+
+The `sentiment_analysis.py` script processes the fetched Reddit posts to analyze sentiment. The script performs the following tasks:
+
+1. Combines the title and selftext of each Reddit post.
+2. Cleans the text data by removing URLs, punctuation, numbers, and stopwords, and applies stemming.
+3. Performs sentiment analysis using the VADER sentiment analysis tool.
+4. Saves the processed sentiment scores to a JSON file.
+
+## Model Training
+
+The `model_training.py` script trains a machine learning model to predict stock prices. The script performs the following tasks:
+
+1. Loads the cleaned and merged data.
+2. Creates additional features, such as lag features for stock prices.
+3. Splits the data into training and testing sets.
+4. Trains a RandomForestRegressor model on the training data.
+5. Saves the trained model for future use.
+6. Evaluates the model using the RMSE metric.
+
+## Prediction and Advice
+
+The `predict_and_advice.py` script uses the trained model to predict stock prices for a specific company and date, and provides investment advice. The script performs the following tasks:
+
+1. Loads the trained model and cleaned data.
+2. Filters the data for the specified company and date.
+3. Predicts the stock price using the trained model.
+4. Provides investment advice based on the predicted stock price.
+
+## Results
+
+The results of the project are as follows:
+
+1. **raining RMSE**: The root mean squared error (RMSE) on the training data.
+2. **Test RMSE**: The root mean squared error (RMSE) on the test data.
+3. **Investment Advice**: Buy or Sell recommendation based on the predicted stock price.
+
+
 
