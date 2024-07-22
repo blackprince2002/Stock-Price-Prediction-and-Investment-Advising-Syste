@@ -74,4 +74,15 @@ pip install -r requirements.txt
    ```bash
    python scripts/predict_and_advice.py
 
+## Data Collection
+
+The data_collection.py script fetches Reddit posts related to specific companies and their historical stock data. The script performs the following tasks:
+
+1. Downloads the NLTK VADER lexicon and stopwords.
+2. Initializes a Reddit instance using PRAW (Python Reddit API Wrapper).
+3. Fetches Reddit posts for multiple companies within a specified timeframe.
+4. Cleans the text data and performs sentiment analysis.
+5. Fetches historical stock data for each company from Yahoo Finance.
+6. Merges the Reddit sentiment data with the stock data.
+7. Saves the processed data to a CSV file.
 
