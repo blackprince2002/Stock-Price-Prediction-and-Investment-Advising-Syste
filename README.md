@@ -47,7 +47,7 @@ stock-price-prediction/
 
 Clone this repository and install the required packages:
 
-```bash
+```git
 git clone https://github.com/your-username/stock-price-prediction.git
 cd stock-price-prediction
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 1. **Data Collection**: Run the `data_collection.py` script to fetch Reddit posts and stock data.
  
-   ```bash
+   ```python
    python scripts/data_collection.py
    
 2. **Sentiment Analysis**: Process the fetched data to analyze sentiment.
