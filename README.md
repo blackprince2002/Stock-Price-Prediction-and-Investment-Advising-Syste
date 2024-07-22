@@ -18,7 +18,7 @@ This project aims to predict stock prices using sentiment analysis of Reddit pos
 
 ## Introduction
 
-Stock price prediction is a challenging task that involves analyzing various factors, including historical stock prices and market sentiment. In this project, we use sentiment analysis of Reddit posts and historical stock data to predict stock prices for a given company. The project aims to provide investment advice based on the predicted stock prices.
+Stock price prediction is a challenging task that involves analyzing various factors, including historical stock prices and market sentiment. In this project, I use sentiment analysis of Reddit posts and historical stock data to predict stock prices for a given company. The project aims to provide investment advice based on the predicted stock prices.
 
 ## Project Structure
 
@@ -122,6 +122,13 @@ The results of the project are as follows:
 - **raining RMSE**: The root mean squared error (RMSE) on the training data.
 - **Test RMSE**: The root mean squared error (RMSE) on the test data.
 - **Investment Advice**: Buy or Sell recommendation based on the predicted stock price.
+
+Example usage of the predict_and_advice function:
+
+```python
+from datetime import datetime
+predict_and_advice('AAPL', datetime(2024, 6, 24).date(), model, data, features)
+
 
 
 
