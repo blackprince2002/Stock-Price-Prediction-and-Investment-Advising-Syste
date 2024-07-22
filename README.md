@@ -144,8 +144,6 @@ Contributions are welcome! Please follow these steps to contribute:
 
  This project is licensed under the MIT License.
 
- ```bash
-This detailed `README.md` should provide a comprehensive overview of your project and guide users through installation, usage, and contributing.
 
 
 
