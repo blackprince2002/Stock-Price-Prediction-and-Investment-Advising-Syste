@@ -47,7 +47,7 @@ stock-price-prediction/
 
 Clone this repository and install the required packages:
 
-```git
+```bash
 git clone https://github.com/your-username/stock-price-prediction.git
 cd stock-price-prediction
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 1. **Data Collection**: Run the `data_collection.py` script to fetch Reddit posts and stock data.
  
-   ```python
+   ```bash
    python scripts/data_collection.py
    
 2. **Sentiment Analysis**: Process the fetched data to analyze sentiment.
@@ -128,6 +128,25 @@ Example usage of the predict_and_advice function:
 ```python
 from datetime import datetime
 predict_and_advice('AAPL', datetime(2024, 6, 24).date(), model, data, features)
+```
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+- Fork the repository.
+- Create a new branch (`git checkout -b feature-branch`).
+- Commit your changes (`git commit -m "Add feature"`).
+- Push to the branch (`git push origin feature-branch`).
+- Create a new Pull Request.
+
+ ## License
+
+ This project is licensed under the MIT License.
+
+ ```bash
+This detailed `README.md` should provide a comprehensive overview of your project and guide users through installation, usage, and contributing.
+
 
 
 
