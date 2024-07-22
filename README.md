@@ -42,3 +42,12 @@ stock-price-prediction/
 ├── .gitignore                    # Git ignore file
 ├── requirements.txt              # List of dependencies
 └── cleaned_merged_data.csv       # Processed data file
+```
+## Installation
+
+Clone this repository and install the required packages:
+```
+git clone https://github.com/your-username/stock-price-prediction.git
+cd stock-price-prediction
+pip install -r requirements.txt
+```
