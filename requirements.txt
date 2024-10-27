@@ -1,0 +1,12 @@
+praw
+pandas
+nltk
+yfinance
+scikit-learn
+joblib
+numpy
+requests
+multitasking
+lxml
+scipy
+threadpoolctl
