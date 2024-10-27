@@ -273,3 +273,6 @@ def predict_and_advice(company, date, model, data, features):
 
 # Example usage of the predict_and_advice function
 predict_and_advice('AAPL', datetime(2024, 6, 23).date(), model, data, features)
+
+
+# STILL WORKING ON PREDICTIONS>>>>>MODEL IS NOT COMPLETED!!!!!!!!!
